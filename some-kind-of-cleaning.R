@@ -6,11 +6,9 @@ stTranscripts <- st_transcripts()
 
 stTranscripts |> distinct(series)
 
-VOY <- stTranscripts |> 
-  filter(series == "VOY")
 
-VOY_text <- VOY |> 
-  select(season, number, title, text) |> 
+all_lines <- stTranscripts |> 
+  select(series, season, number, title, text) |> 
   unnest(text) |> 
   filter(str_detect(line, pattern = "some (kind|sort|form|type)")) |> 
   mutate(
@@ -18,4 +16,4 @@ VOY_text <- VOY |>
   ) |> 
   select(-c(perspective,setting,description, line))
 
-write_csv(VOY_text, "some_kind_of-data.csv")
+write_csv(all_lines, "some-kind-of-cleaned-data.csv")
