@@ -1,0 +1,99 @@
+---
+title: "Some Kind of Exploratory Analysis"
+subtitle: "An exploratory data anylsis of the iconic phrases 'some kind/type/sort/form of' of StarTrek, with a focus on VOY."
+author: Christian Gebhard
+format: html
+code-fold: true
+---
+
+## Setup
+
+```{r load packages}
+#| output: false
+#| code-summary: load packages
+library("tidyverse")
+library("rtrek")
+library("trekfont")
+library("showtext")
+```
+
+```{r setup fonts}
+#| output: false
+#| code-summary: setup fonts
+
+# adapted from {trekfont} documentation:
+fonts <- c("StarNext", "Federation", "FederationBold")
+path <- system.file(paste0("fonts/", fonts, ".ttf"), package = "trekfont")
+for(i in seq_along(fonts)) font_add(fonts[i], path[i])
+# font_families()
+showtext_auto()
+
+```
+
+
+```{r}
+#| output: false
+#| code-summary: read cleaned data
+
+# data downloaded and cleaned in some-kind-of-cleaning.R
+some_kind_of_df <- read_csv("some-kind-of-cleaned-data.csv")
+
+```
+
+
+## Exploratory Analysis
+
+### What series overdoes it with these phrases?
+
+```{r}
+some_kind_of_df |> 
+  group_by(series) |> 
+  count(what_said) |> 
+  pivot_wider(id_cols = c(series), names_from = what_said, values_from = n, values_fill = 0L) |> 
+  mutate(
+    any_phrase = rowSums(across(where(is.numeric)))
+  ) |> 
+  arrange(desc(any_phrase)) |> 
+  relocate(series, any_phrase) |> 
+  knitr::kable()
+
+
+```
+
+So, we have a clear winner: VOY with 353 occurrences of any of the four phrases.^[Note, that this number differs from the extensive collection in the ["Some kind of...StarTrek Supercut" Video](https://youtu.be/JwZiezIxCVU) by Jogwheel. At this point I'm unable to compare the dataset obtained via {rtrek} with the video. As the packages author [Matt Leonawicz](https://github.com/leonawicz) points out: "The dataset is nicely curated, but imperfect. There are text-parsing edge cases that are difficult to handle generally. The quality varies substantially across series."]
+
+### Who said what most often?
+
+```{r}
+some_kind_of_df |> 
+  group_by(character) |> 
+  count(what_said, sort = T) |> 
+  pivot_wider(id_cols = c(character), names_from = what_said, values_from = n, values_fill = 0L) |> 
+  head(10) |> 
+  knitr::kable()
+```
+
+### Is there a dynamic across the episodes / seasons?
+
+```{r}
+by_season <- some_kind_of_df |> 
+  group_by(season) |> 
+  count(what_said) |> 
+  pivot_wider(id_cols = c(season), names_from = what_said, values_from = n, values_fill = 0L) 
+
+by_season |> knitr::kable()
+```
+
+
+```{r}
+by_episode <- some_kind_of_df |> 
+  group_by(number) |> 
+  count(what_said, sort = T)
+
+by_episode |>
+  head(10) |> 
+  knitr::kable()
+```
+
+
+
