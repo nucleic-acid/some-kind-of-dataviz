@@ -1,0 +1,1043 @@
+series,season,number,title,line_number,character,what_said
+TOS,1,0,The Cage,104,Spock,some sort
+TOS,1,0,The Cage,128,Pike,some kind
+TOS,1,0,The Cage,317,Pike,some form
+TOS,1,1,The Man Trap,54,Spock,some kind
+TOS,1,1,The Man Trap,118,Mitchell,some kind
+TOS,1,2,Charlie X,28,Kirk,some kind
+TOS,1,2,Charlie X,29,Spock [Oc],some type
+TOS,1,2,Charlie X,66,Spock,some kind
+TOS,1,2,Charlie X,325,Kirk,some kind
+TOS,1,4,The Naked Time,207,Mccoy,some kind
+TOS,1,6,Mudd's Women,40,Spock,some form
+TOS,1,7,What are Little Girls Made Of?,74,Kirk,some form
+TOS,1,7,What are Little Girls Made Of?,268,Mccoy,some kind
+TOS,1,8,Miri,70,Kirk,some form
+TOS,1,8,Miri,334,Spock,some kind
+TOS,1,11,"The Menagerie, Part 1",26,Mccoy,some type
+TOS,1,13,The Conscience of the King,189,Spock,some kind
+TOS,1,13,The Conscience of the King,192,Spock,some sort
+TOS,1,14,Balance of Terror,54,Spock,some kind
+TOS,1,14,Balance of Terror,118,Mitchell,some kind
+TOS,1,15,Shore Leave,291,Number One [Oc],some sort
+TOS,1,16,The Galileo Seven,38,Pike,some kind
+TOS,1,16,The Galileo Seven,215,Pike,some form
+TOS,1,17,The Squire of Gothos,54,Spock,some kind
+TOS,1,17,The Squire of Gothos,118,Mitchell,some kind
+TOS,1,18,Arena,13,Desalle,some sort
+TOS,1,20,Court Martial,75,Kirk,some sort
+TOS,1,21,The Return of the Archons,5,Webb,some sort
+TOS,1,21,The Return of the Archons,33,Spock,some type
+TOS,1,21,The Return of the Archons,232,Fellini,some kind
+TOS,1,21,The Return of the Archons,239,Fellini,some kind
+TOS,1,21,The Return of the Archons,240,Kirk,some kind
+TOS,1,21,The Return of the Archons,243,Fellini,some kind
+TOS,1,21,The Return of the Archons,330,Christopher,some kind
+TOS,1,22,Space Seed,109,Kirk,some sort
+TOS,1,22,Space Seed,157,Kirk,some sort
+TOS,1,22,Space Seed,178,Scott,some kind
+TOS,1,23,A Taste of Armageddon,91,Kirk,some sort
+TOS,1,24,This Side of Paradise,3,Spock,some type
+TOS,1,24,This Side of Paradise,24,Mccoy,some form
+TOS,1,26,Errand of Mercy,103,Kirk,some form
+TOS,1,26,Errand of Mercy,125,Kirk,some sort
+TOS,1,27,The Alternative Factor,366,Kor,some kind
+TOS,1,28,The City on the Edge of Forever,36,Kirk,some kind
+TOS,1,28,The City on the Edge of Forever,119,Kirk,some form
+TOS,1,28,The City on the Edge of Forever,146,Edith,some sort
+TOS,1,29,Operation - Annihilate!,110,Kirk,some kind
+TOS,1,29,Operation - Annihilate!,113,Kirk,some kind
+TOS,1,29,Operation - Annihilate!,131,Mccoy,some form
+TOS,2,30,Amok Time,66,Kirk,some kind
+TOS,2,30,Amok Time,92,Mccoy,some sort
+TOS,2,30,Amok Time,174,Chekov,some kind
+TOS,2,31,Who Mourns for Adonais?,71,Cochrane,some sort
+TOS,2,31,Who Mourns for Adonais?,176,Mccoy,some kind
+TOS,2,32,The Changeling,167,Chekov,some sort
+TOS,2,33,"Mirror, Mirror",39,Sulu,some kind
+TOS,2,33,"Mirror, Mirror",331,Spock,some sort
+TOS,2,34,The Apple,30,Kirk,some sort
+TOS,2,35,The Doomsday Machine,86,Kirk,some kind
+TOS,2,35,The Doomsday Machine,126,Spock,some kind
+TOS,2,37,"I, Mudd",355,Mccoy,some kind
+TOS,2,39,Journey to Babel,176,Spock,some kind
+TOS,2,42,Obsession,420,Jones,some sort
+TOS,2,44,The Trouble with Tribbles,54,Kirk,some sort
+TOS,2,44,The Trouble with Tribbles,311,Joseph [Oc],some sort
+TOS,2,48,A Private Little War,85,Spock,some form
+TOS,2,48,A Private Little War,180,Kirk,some kind
+TOS,2,51,By Any Other Name,10,Spock,some sort
+TOS,2,51,By Any Other Name,24,Spock,some form
+TOS,2,51,By Any Other Name,45,Scott,some sort
+TOS,2,51,By Any Other Name,82,Mccoy,some type
+TOS,2,52,The Omega Glory,127,Isak,some kind
+TOS,2,52,The Omega Glory,129,Spock,some sort
+TOS,3,56,Spock's Brain,66,Kirk,some kind
+TOS,3,56,Spock's Brain,92,Mccoy,some sort
+TOS,3,56,Spock's Brain,174,Chekov,some kind
+TOS,3,57,The Enterprise Incident,71,Cochrane,some sort
+TOS,3,57,The Enterprise Incident,176,Mccoy,some kind
+TOS,3,58,The Paradise Syndrome,167,Chekov,some sort
+TOS,3,59,And the Children Shall Lead,39,Sulu,some kind
+TOS,3,59,And the Children Shall Lead,331,Spock,some sort
+TOS,3,60,Is There in Truth No Beauty?,30,Kirk,some sort
+TOS,3,61,Spectre of the Gun,86,Kirk,some kind
+TOS,3,61,Spectre of the Gun,126,Spock,some kind
+TOS,3,63,For the World is Hollow and I Have Touched the Sky,355,Mccoy,some kind
+TOS,3,65,Plato's Stepchildren,176,Spock,some kind
+TOS,3,68,Elaan of Troyius,420,Jones,some sort
+TOS,3,70,Let that be Your Last Battlefield,54,Kirk,some sort
+TOS,3,70,Let that be Your Last Battlefield,311,Joseph [Oc],some sort
+TOS,3,74,Requiem for Methuselah,85,Spock,some form
+TOS,3,74,Requiem for Methuselah,180,Kirk,some kind
+TOS,3,77,The Savage Curtain,10,Spock,some sort
+TOS,3,77,The Savage Curtain,24,Spock,some form
+TOS,3,77,The Savage Curtain,45,Scott,some sort
+TOS,3,77,The Savage Curtain,82,Mccoy,some type
+TOS,3,78,All Our Yesterdays,127,Isak,some kind
+TOS,3,78,All Our Yesterdays,129,Spock,some sort
+TNG,1,1,Encounter at Farpoint,554,Troi,some kind
+TNG,1,3,The Naked Now,224,Riker,some kind
+TNG,1,5,Haven,14,Tasha,some kind
+TNG,1,5,Haven,73,Troi,some sort
+TNG,1,6,Where No One Has Gone Before,221,Riker,some kind
+TNG,1,7,The Last Outpost,188,Picard,some sort
+TNG,1,7,The Last Outpost,202,Riker,some kind
+TNG,1,8,Lonely Among Us,298,Riker,some kind
+TNG,1,9,Justice,195,Picard,some form
+TNG,1,9,Justice,297,Picard,some sort
+TNG,1,10,The Battle,11,Picard,some kind
+TNG,1,10,The Battle,260,Beverly,some kind
+TNG,1,14,Datalore,95,Data,some form
+TNG,1,15,Angel One,117,Beverly,some form
+TNG,1,18,When the Bough Breaks,167,Picard,some sort
+TNG,1,18,When the Bough Breaks,323,Beverly,some kind
+TNG,1,18,When the Bough Breaks,404,Radue,some sort
+TNG,1,19,Coming of Age,164,Remmick,some sort
+TNG,1,23,Skin of Evil,112,Riker,some kind
+TNG,1,23,Skin of Evil,289,Data,some kind
+TNG,1,24,We'll Always Have Paris,93,Worf,some kind
+TNG,1,24,We'll Always Have Paris,364,Riker,some sort
+TNG,1,25,Conspiracy,159,Worf,some kind
+TNG,1,26,The Neutral Zone,77,Picard,some kind
+TNG,1,26,The Neutral Zone,125,Data,some kind
+TNG,2,28,Where Silence Has Lease,284,Picard,some kind
+TNG,2,29,"Elementary, Dear Data",297,Moriarty,some sort
+TNG,2,33,Unnatural Selection,157,Rina,some kind
+TNG,2,38,The Royale,18,Riker,some sort
+TNG,2,38,The Royale,32,Troi,some sort
+TNG,2,38,The Royale,36,Data,some sort
+TNG,2,39,Time Squared,287,Pulaski's Com Voice,some kind
+TNG,2,42,Q Who?,248,Worf Com Voice,some form
+TNG,2,43,Samaritan Snare,323,Picard,some kind
+TNG,2,43,Samaritan Snare,375,Troi,some sort
+TNG,2,44,Up the Long Ladder,30,Riker,some kind
+TNG,2,45,Manhunt,314,Rex,some kind
+TNG,2,48,Shades of Gray,318,Troi,some type
+TNG,2,48,Shades of Gray,485,Data,some kind
+TNG,3,49,The Ensigns of Command,198,Data,some form
+TNG,3,50,Evolution,166,Worf,some form
+TNG,3,50,Evolution,177,Geordi,some kind
+TNG,3,51,The Survivors,28,Beverly,some kind
+TNG,3,51,The Survivors,52,Kevin,some kind
+TNG,3,55,The Enemy,201,Geordi,some sort
+TNG,3,56,The Price,101,Riker,some sort
+TNG,3,56,The Price,153,Beverly,some kind
+TNG,3,59,The Hunted,96,Picard,some sort
+TNG,3,66,Allegiance,34,Tholl,some sort
+TNG,3,68,Tin Man,61,Geordi,some kind
+TNG,3,69,Hollow Pursuits,123,Geordi,some kind
+TNG,3,70,The Most Toys,197,Toff,some sort
+TNG,3,71,Sarek,39,Geordi,some kind
+TNG,3,71,Sarek,163,Geordi,some kind
+TNG,3,73,Transfigurations,36,Riker,some kind
+TNG,3,73,Transfigurations,101,John,some kind
+TNG,3,73,Transfigurations,210,John,some kind
+TNG,3,74,"Best of Both Worlds, Part 1",15,Shelby,some kind
+TNG,3,74,"Best of Both Worlds, Part 1",281,Riker,some kind
+TNG,3,74,"Best of Both Worlds, Part 1",307,O'brien's Com Voice,some kind
+TNG,3,74,"Best of Both Worlds, Part 1",350,Data,some kind
+TNG,4,77,Brothers,212,Soong,some sort
+TNG,4,78,Suddenly Human,135,Sergey,some kind
+TNG,4,79,Remember Me,55,Picard,some sort
+TNG,4,83,Final Mission,195,Wesley,some kind
+TNG,4,84,The Loss,97,Riker,some sort
+TNG,4,84,The Loss,364,Troi,some kind
+TNG,4,85,Data's Day,291,Riker,some kind
+TNG,4,87,Devil's Due,189,Picard,some sort
+TNG,4,87,Devil's Due,226,Worf's Com Voice,some sort
+TNG,4,88,Clues,140,Picard,some sort
+TNG,4,90,Galaxy's Child,174,Riker,some sort
+TNG,4,91,Night Terrors,211,Gillespie,some kind
+TNG,4,92,Identity Crisis,138,Geordi,some sort
+TNG,4,92,Identity Crisis,307,Beverly,some kind
+TNG,4,98,The Mind's Eye,265,Geordi,some kind
+TNG,4,98,The Mind's Eye,316,Data,some form
+TNG,4,99,In Theory,161,Picard,some kind
+TNG,5,102,Darmok,125,Troi,some sort
+TNG,5,106,The Game,323,Wesley,some kind
+TNG,5,109,A Matter of Time,81,Geordi,some kind
+TNG,5,114,Conundrum,83,Macduff,some kind
+TNG,5,115,Power Play,203,Beverly,some kind
+TNG,5,118,Cause and Effect,273,Data,some sort
+TNG,5,120,Cost of Living,295,Laforge,some kind
+TNG,5,121,The Perfect Mate,240,Briam,some sort
+TNG,5,122,Imaginary Friend,116,Riker,some kind
+TNG,5,123,"I, Borg",205,Beverly,some kind
+TNG,5,123,"I, Borg",331,Picard,some kind
+TNG,5,124,The Next Phase,134,Geordi,some kind
+TNG,5,125,The Inner Light,11,Data,some kind
+TNG,5,126,"Time's Arrow, Part 1",39,Geordi,some kind
+TNG,5,126,"Time's Arrow, Part 1",173,Data's Com Voice (Cont'd),some sort
+TNG,5,126,"Time's Arrow, Part 1",175,Data's Com Voice,some sort
+TNG,5,126,"Time's Arrow, Part 1",392,Guinan,some kind
+TNG,6,127,"Time's Arrow, Part 2",20,Geordi,some kind
+TNG,6,127,"Time's Arrow, Part 2",205,Geordi,some kind
+TNG,6,128,Realm of Fear,151,Barclay,some kind
+TNG,6,129,Man of the People,139,Picard,some kind
+TNG,6,129,Man of the People,299,Picard,some kind
+TNG,6,130,Relics,319,Geordi,some kind
+TNG,6,130,Relics,324,Geordi,some kind
+TNG,6,131,Schisms,192,Troi,some kind
+TNG,6,131,Schisms,201,Worf,some sort
+TNG,6,131,Schisms,246,Beverly,some sort
+TNG,6,131,Schisms,334,Geordi,some kind
+TNG,6,132,True Q,387,Q,some kind
+TNG,6,133,Rascals,20,Ro,some kind
+TNG,6,133,Rascals,164,Young Ro,some kind
+TNG,6,133,Rascals,166,Young Ro,some kind
+TNG,6,135,The Quality of Life,366,Kelso,some kind
+TNG,6,135,The Quality of Life,402,Geordi,some kind
+TNG,6,136,"Chain of Command, Part 1",106,Jellico,some kind
+TNG,6,136,"Chain of Command, Part 1",222,Beverly,some type
+TNG,6,140,Face of the Enemy,265,Picard,some sort
+TNG,6,140,Face of the Enemy,300,Deseve,some kind
+TNG,6,141,Tapestry,166,Corey,some kind
+TNG,6,142,"Birthright, Part 1",27,Bashir,some kind
+TNG,6,142,"Birthright, Part 1",117,Geordi,some kind
+TNG,6,144,Starship Mine,242,Kiros,some kind
+TNG,6,145,Lessons,356,Picard,some kind
+TNG,6,146,The Chase,143,Geordi,some kind
+TNG,6,146,The Chase,172,Picard,some kind
+TNG,6,146,The Chase,208,Picard,some kind
+TNG,6,147,Frame of Mind,291,Beverly,some kind
+TNG,6,147,Frame of Mind,354,Riker,some kind
+TNG,6,148,Suspicions,36,Beverly (V.o.),some kind
+TNG,6,149,Rightful Heir,187,Koroth,some kind
+TNG,6,149,Rightful Heir,269,Worf,some kind
+TNG,6,150,Second Chances,69,Picard,some sort
+TNG,6,150,Second Chances,260,Lt. Riker,some form
+TNG,6,151,Timescape,262,Picard,some sort
+TNG,6,151,Timescape,265,Picard,some sort
+TNG,6,152,"Descent, Part 1",57,Geordi,some kind
+TNG,6,152,"Descent, Part 1",84,Geordi,some kind
+TNG,6,152,"Descent, Part 1",186,Data,some kind
+TNG,6,152,"Descent, Part 1",255,Geordi,some kind
+TNG,6,152,"Descent, Part 1",338,Troi,some kind
+TNG,7,153,"Descent, Part 2",239,Picard,some kind
+TNG,7,154,Liaisons,82,Picard,some sort
+TNG,7,155,Interface,130,Beverly,some kind
+TNG,7,155,Interface,238,Picard,some kind
+TNG,7,155,Interface,270,Geordi,some kind
+TNG,7,155,Interface,274,Riker,some sort
+TNG,7,155,Interface,292,Geordi,some kind
+TNG,7,155,Interface,418,Geordi,some kind
+TNG,7,156,"Gambit, Part 1",47,Beverly,some kind
+TNG,7,156,"Gambit, Part 1",117,Yranac,some kind
+TNG,7,156,"Gambit, Part 1",127,Geordi,some kind
+TNG,7,156,"Gambit, Part 1",258,Geordi,some kind
+TNG,7,156,"Gambit, Part 1",382,Worf,some kind
+TNG,7,157,"Gambit, Part 2",129,Riker,some kind
+TNG,7,158,Phantasms,166,Troi,some sort
+TNG,7,158,Phantasms,226,Picard,some sort
+TNG,7,158,Phantasms,242,Beverly,some sort
+TNG,7,158,Phantasms,244,Beverly,some kind
+TNG,7,159,Dark Page,170,Troi,some kind
+TNG,7,159,Dark Page,287,Troi,some kind
+TNG,7,160,Attached,43,Picard,some kind
+TNG,7,161,Force of Nature,348,Geordi,some kind
+TNG,7,165,Homeward,338,Beverly,some form
+TNG,7,166,Sub Rosa,181,Riker,some sort
+TNG,7,166,Sub Rosa,246,Picard,some sort
+TNG,7,166,Sub Rosa,322,Beverly,some sort
+TNG,7,166,Sub Rosa,336,Beverly,some sort
+TNG,7,168,Thine Own Self,48,Garvin,some kind
+TNG,7,168,Thine Own Self,101,Talur,some kind
+TNG,7,168,Thine Own Self,303,Skoran,some kind
+TNG,7,168,Thine Own Self,311,Gia,some kind
+TNG,7,169,Masks,44,Geordi,some kind
+TNG,7,169,Masks,55,Geordi,some kind
+TNG,7,169,Masks,67,Troi,some kind
+TNG,7,169,Masks,103,Geordi,some kind
+TNG,7,169,Masks,117,Riker,some kind
+TNG,7,169,Masks,180,Troi,some kind
+TNG,7,169,Masks,211,Riker,some kind
+TNG,7,169,Masks,214,Geordi,some kind
+TNG,7,169,Masks,346,Worf,some kind
+TNG,7,170,Eye of the Beholder,36,Worf,some kind
+TNG,7,170,Eye of the Beholder,128,Riker,some sort
+TNG,7,170,Eye of the Beholder,306,Troi,some sort
+TNG,7,170,Eye of the Beholder,307,Troi,some sort
+TNG,7,170,Eye of the Beholder,336,Calloway,some kind
+TNG,7,170,Eye of the Beholder,395,Geordi,some kind
+TNG,7,171,Genesis,159,Beverly,some kind
+TNG,7,171,Genesis,167,Beverly,some sort
+TNG,7,171,Genesis,175,Ogawa (Cont'd),some sort
+TNG,7,171,Genesis,223,Picard,some sort
+TNG,7,171,Genesis,251,Data,some form
+TNG,7,171,Genesis,291,Data,some sort
+TNG,7,171,Genesis,295,Picard,some sort
+TNG,7,172,Journey's End,166,Wesley,some kind
+TNG,7,174,Bloodlines,2,Riker,some kind
+TNG,7,174,Bloodlines,289,Geordi,some sort
+TNG,7,175,Emergence,82,Geordi,some kind
+TNG,7,175,Emergence,100,Data,some kind
+TNG,7,175,Emergence,154,Data,some sort
+TNG,7,175,Emergence,169,Data,some kind
+TNG,7,175,Emergence,171,Data,some form
+TNG,7,175,Emergence,244,Troi,some kind
+TNG,7,176,Preemptive Strike,232,Data,some kind
+TNG,7,177,All Good Things...,78,Beverly,some kind
+TNG,7,177,All Good Things...,106,Nakamura,some kind
+TNG,7,177,All Good Things...,237,Geordi,some kind
+TNG,7,177,All Good Things...,274,Picard,some kind
+TNG,7,177,All Good Things...,338,Picard,some sort
+TNG,7,177,All Good Things...,679,Troi,some kind
+DS9,1,1,Emissary,243,Sisko,some kind
+DS9,1,1,Emissary,250,Sisko,some sort
+DS9,1,1,Emissary,426,O'brien,some kind
+DS9,1,3,A Man Alone,240,Bashir,some sort
+DS9,1,4,Past Prologue,10,Garak,some sort
+DS9,1,5,Babel,61,O'brien (O.s.),some sort
+DS9,1,5,Babel,83,O'brien,some sort
+DS9,1,5,Babel,138,O'brien,some kind
+DS9,1,5,Babel,179,O'brien,some kind
+DS9,1,5,Babel,249,O'brien,some kind
+DS9,1,5,Babel,255,O'brien,some kind
+DS9,1,6,Captive Pursuit,61,O'brien (O.s.),some sort
+DS9,1,6,Captive Pursuit,83,O'brien,some sort
+DS9,1,6,Captive Pursuit,138,O'brien,some kind
+DS9,1,6,Captive Pursuit,179,O'brien,some kind
+DS9,1,6,Captive Pursuit,249,O'brien,some kind
+DS9,1,6,Captive Pursuit,255,O'brien,some kind
+DS9,1,7,Q-Less,273,Dax,some kind
+DS9,1,9,The Passenger,132,Odo,some sort
+DS9,1,9,The Passenger,237,Dax,some kind
+DS9,1,10,Move Along Home,134,Bashir,some sort
+DS9,1,12,Vortex,175,Bashir,some sort
+DS9,1,13,Battle Lines,137,Shel-La,some sort
+DS9,1,13,Battle Lines,166,Sisko,some kind
+DS9,1,13,Battle Lines,179,Bashir,some kind
+DS9,1,13,Battle Lines,312,Zlangco,some kind
+DS9,1,13,Battle Lines,320,O'brien,some kind
+DS9,1,14,The Storyteller,177,Bashir,some kind
+DS9,1,14,The Storyteller,349,Jake,some kind
+DS9,1,14,The Storyteller,367,O'brien,some kind
+DS9,1,15,Progress,254,Ch'ano's Voice,some kind
+DS9,1,16,If Wishes Were Horses,97,Bashir,some kind
+DS9,1,16,If Wishes Were Horses,132,Dax,some kind
+DS9,1,16,If Wishes Were Horses,156,Bashir,some kind
+DS9,1,16,If Wishes Were Horses,243,Dax,some sort
+DS9,1,17,The Forsaken,189,Anara,some sort
+DS9,1,17,The Forsaken,302,Sisko,some kind
+DS9,1,17,The Forsaken,309,Dax,some kind
+DS9,1,18,Dramatis Personae,270,Klingon,some type
+DS9,1,18,Dramatis Personae,314,Bashir,some kind
+DS9,1,20,In the Hands of the Prophets,114,O'brien,some sort
+DS9,2,21,The Homecoming,455,Li (Cont'd),some kind
+DS9,2,23,The Siege,416,O'brien,some kind
+DS9,2,24,Invasive Procedures,85,Bashir,some kind
+DS9,2,25,Cardassians,119,Sisko,some sort
+DS9,2,27,Rules of Acquisition,341,Quark,some kind
+DS9,2,27,Rules of Acquisition,433,Pel,some kind
+DS9,2,28,Necessary Evil,246,Kira,some kind
+DS9,2,28,Necessary Evil,372,Odo,some sort
+DS9,2,29,Second Sight,183,Sisko,some kind
+DS9,2,31,Rivals,92,O'brien,some kind
+DS9,2,31,Rivals,307,Sisko,some kind
+DS9,2,31,Rivals,433,Martus,some kind
+DS9,2,32,The Alternate,23,Odo,some sort
+DS9,2,32,The Alternate,138,Weld,some kind
+DS9,2,32,The Alternate,159,Odo's Com Voice,some kind
+DS9,2,32,The Alternate,225,Sisko,some kind
+DS9,2,32,The Alternate,356,Mora,some kind
+DS9,2,32,The Alternate,358,Mora,some kind
+DS9,2,32,The Alternate,381,Mora,some kind
+DS9,2,33,Armageddon Game,129,O'brien,some sort
+DS9,2,33,Armageddon Game,337,Dax,some kind
+DS9,2,34,Whispers,91,O'brien,some kind
+DS9,2,34,Whispers,349,O'brien,some sort
+DS9,2,35,Paradise,26,O'brien,some sort
+DS9,2,35,Paradise,59,Joseph,some kind
+DS9,2,35,Paradise,72,O'brien,some kind
+DS9,2,35,Paradise,232,Alixus,some kind
+DS9,2,36,Shadowplay,34,Dax,some kind
+DS9,2,36,Shadowplay,69,Odo,some kind
+DS9,2,36,Shadowplay,307,Colyus,some kind
+DS9,2,37,Playing God,122,O'brien,some kind
+DS9,2,37,Playing God,142,Dax,some kind
+DS9,2,40,"The Maquis, Part 1",52,Odo,some kind
+DS9,2,40,"The Maquis, Part 1",310,Sisko,some kind
+DS9,2,42,The Wire,51,Bashir,some kind
+DS9,2,42,The Wire,120,Odo,some kind
+DS9,2,42,The Wire,199,Bashir,some kind
+DS9,2,43,Crossover,229,O'brien,some kind
+DS9,2,45,Tribunal,188,Kira,some kind
+DS9,2,46,The Jem'Hadar,22,Dax,some kind
+DS9,2,46,The Jem'Hadar,171,Nog,some kind
+DS9,2,46,The Jem'Hadar,180,Jake,some kind
+DS9,2,46,The Jem'Hadar,237,Jake,some kind
+DS9,2,46,The Jem'Hadar,319,O'brien,some kind
+DS9,2,46,The Jem'Hadar,322,Sisko,some kind
+DS9,2,46,The Jem'Hadar,450,Keogh,some kind
+DS9,3,47,"The Search, Part 1",205,O'brien,some kind
+DS9,3,47,"The Search, Part 1",292,Dax,some kind
+DS9,3,48,"The Search, Part 2",41,Bashir,some kind
+DS9,3,48,"The Search, Part 2",160,Kira,some kind
+DS9,3,48,"The Search, Part 2",332,Kira,some kind
+DS9,3,49,The House of Quark,54,Odo,some kind
+DS9,3,49,The House of Quark,212,Kira,some kind
+DS9,3,49,The House of Quark,237,Quark,some kind
+DS9,3,50,Equilibrium,63,Sisko,some kind
+DS9,3,52,The Abandoned,99,Bashir,some kind
+DS9,3,52,The Abandoned,102,Sisko,some kind
+DS9,3,52,The Abandoned,105,O'brien,some kind
+DS9,3,52,The Abandoned,107,O'brien,some kind
+DS9,3,53,Civil Defense,30,Sisko,some kind
+DS9,3,53,Civil Defense,34,Bashir,some kind
+DS9,3,53,Civil Defense,50,Quark,some kind
+DS9,3,53,Civil Defense,92,Jake,some kind
+DS9,3,53,Civil Defense,95,Sisko,some kind
+DS9,3,53,Civil Defense,106,Bashir,some kind
+DS9,3,54,Meridian,422,O'brien,some kind
+DS9,3,55,Defiant,187,Sisko,some kind
+DS9,3,55,Defiant,244,Sisko,some kind
+DS9,3,57,"Past Tense, Part 1",359,O'brien,some kind
+DS9,3,59,Life Support,21,O'brien,some kind
+DS9,3,59,Life Support,36,Sisko,some kind
+DS9,3,59,Life Support,166,Bashir,some kind
+DS9,3,59,Life Support,273,Jake,some kind
+DS9,3,60,Heart of Stone,121,Odo,some kind
+DS9,3,60,Heart of Stone,177,Jake,some kind
+DS9,3,60,Heart of Stone,459,Kira,some kind
+DS9,3,61,Destiny,42,Sisko,some sort
+DS9,3,61,Destiny,132,Odo,some sort
+DS9,3,61,Destiny,199,Kira,some kind
+DS9,3,61,Destiny,283,Dax,some sort
+DS9,3,62,Prophet Motive,134,Quark,some kind
+DS9,3,62,Prophet Motive,136,Quark,some kind
+DS9,3,62,Prophet Motive,205,Quark,some kind
+DS9,3,62,Prophet Motive,207,Quark,some kind
+DS9,3,63,Visionary,24,O'brien,some kind
+DS9,3,63,Visionary,124,Karina,some kind
+DS9,3,63,Visionary,125,Ruwon,some kind
+DS9,3,63,Visionary,155,Sisko,some kind
+DS9,3,63,Visionary,289,Kira,some kind
+DS9,3,64,Distant Voices,91,Garak,some kind
+DS9,3,64,Distant Voices,93,Garak,some kind
+DS9,3,64,Distant Voices,151,Bashir,some kind
+DS9,3,64,Distant Voices,191,Dax's Com Voice,some kind
+DS9,3,65,Through the Looking Glass,387,Odo,some kind
+DS9,3,67,The Die is Cast,423,O'brien,some kind
+DS9,3,67,The Die is Cast,519,Tain,some kind
+DS9,3,67,The Die is Cast,592,Dax,some kind
+DS9,3,67,The Die is Cast,603,Kira,some kind
+DS9,3,68,Explorers,51,Jake,some kind
+DS9,3,68,Explorers,75,Kira,some kind
+DS9,3,68,Explorers,155,Dukat,some sort
+DS9,3,70,Shakaar,149,Kira,some kind
+DS9,3,70,Shakaar,151,Kira,some kind
+DS9,3,70,Shakaar,176,Kira,some sort
+DS9,3,72,The Adversary,112,Dax,some kind
+DS9,4,73,The Way of the Warrior,545,Kasidy,some kind
+DS9,4,75,The Visitor,38,O'brien,some kind
+DS9,4,76,Hippocratic Oath,136,O'brien,some sort
+DS9,4,76,Hippocratic Oath,249,Old Jake,some sort
+DS9,4,76,Hippocratic Oath,287,Mature Jake,some sort
+DS9,4,77,Indiscretion,150,Dukat,some kind
+DS9,4,77,Indiscretion,151,Kira,some kind
+DS9,4,80,Little Green Men,173,Nurse Garland,some kind
+DS9,4,80,Little Green Men,194,Professor Carlson,some kind
+DS9,4,80,Little Green Men,200,Rom,some kind
+DS9,4,80,Little Green Men,267,General Denning,some kind
+DS9,4,81,The Sword of Kahless,164,Worf,some kind
+DS9,4,82,Our Man Bashir,51,Garak,some kind
+DS9,4,82,Our Man Bashir,60,O'brien,some kind
+DS9,4,82,Our Man Bashir,264,Kira,some kind
+DS9,4,83,Homefront,420,Odo,some kind
+DS9,4,83,Homefront,424,Leyton,some kind
+DS9,4,84,Paradise Lost,151,Nog,some kind
+DS9,4,84,Paradise Lost,242,Sisko,some kind
+DS9,4,85,Crossfire,218,Odo,some sort
+DS9,4,92,Shattered Mirror,214,Klingon Officer,some kind
+DS9,4,93,The Muse,328,O'brien,some sort
+DS9,4,93,The Muse,329,Bashir,some kind
+DS9,4,94,For the Cause,240,Kasidy,some kind
+DS9,4,95,The Quickening,1,O'brien,some sort
+DS9,4,95,The Quickening,26,Kira,some kind
+DS9,4,96,To the Death,351,Dax,some kind
+DS9,5,99,Apocalypse Rising,251,Towering Klingon,some sort
+DS9,5,100,The Ship,122,Dax,some kind
+DS9,5,100,The Ship,190,Sisko,some kind
+DS9,5,101,Looking for par'Mach in All the Wrong Places,87,Bashir,some kind
+DS9,5,101,Looking for par'Mach in All the Wrong Places,90,O'brien,some kind
+DS9,5,102,...nor the Battle to the Strong,42,Kira,some sort
+DS9,5,104,Trials and Tribble-Ations,77,Keiko,some kind
+DS9,5,104,Trials and Tribble-Ations,161,Jake,some sort
+DS9,5,105,Let He Who is Without Sin,340,Arandis,some kind
+DS9,5,106,Things Past,99,Bashir,some kind
+DS9,5,106,Things Past,314,Odo,some kind
+DS9,5,107,The Ascent,136,Odo,some kind
+DS9,5,109,The Darkness and the Light,58,Sisko,some kind
+DS9,5,109,The Darkness and the Light,204,Odo,some kind
+DS9,5,109,The Darkness and the Light,212,Nog,some kind
+DS9,5,111,For the Uniform,64,Kira,some kind
+DS9,5,113,By Inferno's Light,55,Garak,some sort
+DS9,5,116,Business as Usual,57,O'brien,some kind
+DS9,5,116,Business as Usual,428,Quark,some sort
+DS9,5,116,Business as Usual,434,Quark,some sort
+DS9,5,119,Soldiers of the Empire,173,Dax,some kind
+DS9,5,120,Children of Time,26,Dax,some sort
+DS9,5,122,Empok nor,214,Garak,some sort
+DS9,5,124,Call to Arms,196,Weyoun,some sort
+DS9,6,125,A Time to Stand,292,Kira,some kind
+DS9,6,127,Sons and Daughters,28,O'brien,some kind
+DS9,6,129,Favor the Bold,49,Dax,some kind
+DS9,6,129,Favor the Bold,140,Weyoun,some sort
+DS9,6,131,You are Cordially Invited,142,O'brien,some kind
+DS9,6,135,Waltz,201,O'brien,some kind
+DS9,6,136,Who Mourns for Morn?,83,Quark,some kind
+DS9,6,140,Change of Heart,341,Dax,some kind
+DS9,6,142,Inquisition,45,Dax,some kind
+DS9,6,143,In the Pale Moonlight,106,Tolar,some kind
+DS9,6,143,In the Pale Moonlight,142,Quark,some kind
+DS9,6,145,The Reckoning,120,Dax,some kind
+DS9,6,148,Time's Orphan,62,Dax,some sort
+DS9,7,151,Image in the Sand,86,Damar,some kind
+DS9,7,151,Image in the Sand,288,Joseph,some kind
+DS9,7,151,Image in the Sand,399,Ross,some kind
+DS9,7,152,Shadows and Symbols,233,Ross,some kind
+DS9,7,157,Once More Unto the Breach,272,Worf,some kind
+DS9,7,159,Covenant,35,Kira,some sort
+DS9,7,159,Covenant,94,Kira,some kind
+DS9,7,161,Prodigal Daughter,370,Ezri,some kind
+DS9,7,163,Field of Fire,57,Odo,some kind
+DS9,7,163,Field of Fire,358,Ezri,some kind
+DS9,7,164,Chimera,341,Changeling,some kind
+DS9,7,164,Chimera,347,Kira,some kind
+DS9,7,165,Badda Bing Badda Bang,412,Frankie (O.s.),some kind
+DS9,7,168,Til Death Do Us Part,218,Worf,some kind
+DS9,7,173,Extreme Measures,268,Ezri,some kind
+DS9,7,175,What You Leave Behind,292,Kira,some kind
+VOY,1,1,Caretaker,27,Tuvok,some kind
+VOY,1,1,Caretaker,113,Paris,some kind
+VOY,1,1,Caretaker,183,Kim,some kind
+VOY,1,1,Caretaker,254,Kim,some kind
+VOY,1,1,Caretaker,281,Kim,some kind
+VOY,1,1,Caretaker,356,Janeway,some kind
+VOY,1,1,Caretaker,468,Jabin,some kind
+VOY,1,1,Caretaker,565,Rollins,some kind
+VOY,1,1,Caretaker,617,Paris,some kind
+VOY,1,3,Parallax,96,Seska,some kind
+VOY,1,4,Time and Again,77,Paris,some kind
+VOY,1,4,Time and Again,94,Latika,some kind
+VOY,1,4,Time and Again,259,Paris,some kind
+VOY,1,4,Time and Again,309,Janeway,some kind
+VOY,1,4,Time and Again,353,Janeway,some kind
+VOY,1,5,Phage,76,Chakotay,some kind
+VOY,1,5,Phage,132,Janeway,some sort
+VOY,1,5,Phage,202,Kim,some sort
+VOY,1,5,Phage,285,Kim,some kind
+VOY,1,6,The Cloud,254,Torres,some kind
+VOY,1,6,The Cloud,309,Neelix,some kind
+VOY,1,6,The Cloud,347,Kim,some kind
+VOY,1,6,The Cloud,373,Chakotay,some kind
+VOY,1,6,The Cloud,458,Paris,some kind
+VOY,1,7,Eye of the Needle,168,Chakotay,some kind
+VOY,1,9,Emanations,20,Chakotay,some kind
+VOY,1,9,Emanations,22,Torres,some kind
+VOY,1,9,Emanations,97,Kim,some kind
+VOY,1,9,Emanations,175,Paris,some kind
+VOY,1,9,Emanations,209,Janeway,some kind
+VOY,1,10,Prime Factors,135,Janeway,some kind
+VOY,1,11,State of Flux,1,Carey,some kind
+VOY,1,11,State of Flux,17,Janeway,some kind
+VOY,1,11,State of Flux,18,Tuvok,some kind
+VOY,1,11,State of Flux,110,Janeway,some kind
+VOY,1,11,State of Flux,261,Emh,some kind
+VOY,1,12,Heroes and Demons,72,Tuvok [Oc],some kind
+VOY,1,12,Heroes and Demons,228,Emh,some kind
+VOY,1,12,Heroes and Demons,256,Paris,some sort
+VOY,1,12,Heroes and Demons,276,Janeway,some kind
+VOY,1,12,Heroes and Demons,277,Torres,some kind
+VOY,1,13,Cathexis,31,Emh,some kind
+VOY,1,13,Cathexis,73,Kes,some kind
+VOY,1,13,Cathexis,158,Kim,some kind
+VOY,1,13,Cathexis,259,Kim,some kind
+VOY,1,14,Faces,99,Torres,some kind
+VOY,1,14,Faces,117,Chakotay,some type
+VOY,1,14,Faces,194,Torres,some kind
+VOY,1,15,Jetrel,48,Janeway,some kind
+VOY,1,15,Jetrel,234,Neelix,some kind
+VOY,1,16,Learning Curve,139,Torres,some kind
+VOY,1,16,Learning Curve,370,Dalby,some kind
+VOY,2,17,The 37's,76,Chakotay,some kind
+VOY,2,17,The 37's,86,Chakotay,some sort
+VOY,2,17,The 37's,89,Torres,some kind
+VOY,2,17,The 37's,96,Janeway,some sort
+VOY,2,17,The 37's,100,Janeway,some sort
+VOY,2,17,The 37's,118,Paris,some kind
+VOY,2,17,The 37's,145,Chakotay,some kind
+VOY,2,18,Initiations,190,Janeway,some kind
+VOY,2,19,Projections,85,Emh,some kind
+VOY,2,19,Projections,153,Emh,some kind
+VOY,2,20,Elogium,26,Kim,some sort
+VOY,2,20,Elogium,36,Chakotay,some type
+VOY,2,20,Elogium,55,Janeway,some type
+VOY,2,20,Elogium,162,Janeway,some kind
+VOY,2,21,Non Sequitur,17,Kim,some sort
+VOY,2,21,Non Sequitur,70,Cosimo,some kind
+VOY,2,21,Non Sequitur,319,Chakotay,some kind
+VOY,2,22,Twisted,53,Kim,some type
+VOY,2,22,Twisted,166,Emh,some type
+VOY,2,22,Twisted,263,Tuvok,some sort
+VOY,2,22,Twisted,288,Chakotay,some kind
+VOY,2,22,Twisted,298,Torres,some sort
+VOY,2,22,Twisted,304,Paris,some kind
+VOY,2,22,Twisted,407,Janeway,some sort
+VOY,2,23,Parturition,71,Chakotay,some sort
+VOY,2,23,Parturition,167,Paris,some kind
+VOY,2,23,Parturition,189,Paris,some kind
+VOY,2,25,Tattoo,60,Paris,some kind
+VOY,2,25,Tattoo,62,Chakotay,some kind
+VOY,2,25,Tattoo,248,Paris,some kind
+VOY,2,26,Cold Fire,71,Paris,some kind
+VOY,2,26,Cold Fire,93,Kes,some kind
+VOY,2,27,Maneuvers,12,Tuvok,some kind
+VOY,2,27,Maneuvers,359,Torres,some kind
+VOY,2,27,Maneuvers,396,Torres,some kind
+VOY,2,29,Prototype,20,Torres,some kind
+VOY,2,29,Prototype,24,Torres,some kind
+VOY,2,29,Prototype,25,Kim,some kind
+VOY,2,29,Prototype,56,Emh,some kind
+VOY,2,29,Prototype,64,Torres,some sort
+VOY,2,29,Prototype,170,Tuvok,some kind
+VOY,2,29,Prototype,201,Chakotay,some kind
+VOY,2,29,Prototype,280,Tuvok,some sort
+VOY,2,29,Prototype,335,Janeway,some kind
+VOY,2,31,Threshold,201,Emh,some sort
+VOY,2,32,Meld,16,Hogan,some kind
+VOY,2,33,Dreadnought,104,Janeway,some sort
+VOY,2,34,Death Wish,81,Paris,some kind
+VOY,2,34,Death Wish,178,Q,some sort
+VOY,2,35,Lifesigns,12,Paris,some kind
+VOY,2,35,Lifesigns,19,Emh,some sort
+VOY,2,35,Lifesigns,22,Kes,some kind
+VOY,2,35,Lifesigns,67,Emh,some kind
+VOY,2,35,Lifesigns,283,Jonas,some kind
+VOY,2,37,Deadlock,52,Kim,some kind
+VOY,2,37,Deadlock,123,Torres,some kind
+VOY,2,37,Deadlock,196,Torres 2,some kind
+VOY,2,37,Deadlock,246,Torres 1,some kind
+VOY,2,37,Deadlock,260,Tuvok 1,some kind
+VOY,2,37,Deadlock,333,Vidiian,some sort
+VOY,2,37,Deadlock,352,Kes 2,some kind
+VOY,2,38,Innocence,89,Emh,some sort
+VOY,2,38,Innocence,308,Kim,some kind
+VOY,2,39,The Thaw,54,Kim,some kind
+VOY,2,39,The Thaw,55,Janeway,some sort
+VOY,2,39,The Thaw,123,Kim,some kind
+VOY,2,39,The Thaw,236,Janeway,some kind
+VOY,2,40,Tuvix,58,Tuvix,some form
+VOY,2,40,Tuvix,178,Tuvix,some sort
+VOY,2,41,Resolutions,99,Janeway,some kind
+VOY,2,41,Resolutions,178,Chakotay,some kind
+VOY,2,42,"Basics, Part 1",162,Chakotay,some kind
+VOY,3,43,"Basics, Part 2",75,Chakotay,some sort
+VOY,3,43,"Basics, Part 2",84,Paris,some kind
+VOY,3,44,Flashback,13,Neelix,some sort
+VOY,3,44,Flashback,349,Emh,some kind
+VOY,3,45,The Chute,30,Paris,some kind
+VOY,3,45,The Chute,32,Paris,some kind
+VOY,3,46,The Swarm,41,Emh,some type
+VOY,3,46,The Swarm,102,Torres,some kind
+VOY,3,46,The Swarm,293,Kim,some sort
+VOY,3,47,False Profits,36,Chakotay,some sort
+VOY,3,47,False Profits,42,Chakotay,some sort
+VOY,3,47,False Profits,378,Arridor,some sort
+VOY,3,48,Remember,220,Dathan,some kind
+VOY,3,49,Sacred Ground,32,Janeway,some kind
+VOY,3,49,Sacred Ground,68,Janeway,some kind
+VOY,3,49,Sacred Ground,100,Janeway,some kind
+VOY,3,50,"Future's End, Part 1",28,Kim,some kind
+VOY,3,50,"Future's End, Part 1",47,Paris,some kind
+VOY,3,50,"Future's End, Part 1",298,Janeway,some kind
+VOY,3,51,"Future's End, Part 2",143,Torres,some kind
+VOY,3,51,"Future's End, Part 2",157,Janeway,some kind
+VOY,3,51,"Future's End, Part 2",244,Janeway,some kind
+VOY,3,52,Warlord,326,Tieran-Kes,some kind
+VOY,3,53,The Q and the Grey,157,Janeway,some sort
+VOY,3,53,The Q and the Grey,210,Janeway,some sort
+VOY,3,54,Macrocosm,21,Janeway,some kind
+VOY,3,54,Macrocosm,28,Janeway,some kind
+VOY,3,54,Macrocosm,87,Emh [Oc],some kind
+VOY,3,54,Macrocosm,108,Emh,some sort
+VOY,3,54,Macrocosm,149,Torres,some kind
+VOY,3,54,Macrocosm,158,Emh,some sort
+VOY,3,55,Fair Trade,25,Janeway,some kind
+VOY,3,56,Alter Ego,112,Chakotay,some kind
+VOY,3,56,Alter Ego,120,Kim,some kind
+VOY,3,56,Alter Ego,253,Torres,some kind
+VOY,3,56,Alter Ego,255,Torres,some kind
+VOY,3,56,Alter Ego,341,Torres,some kind
+VOY,3,57,Coda,60,Janeway,some kind
+VOY,3,57,Coda,93,Janeway,some kind
+VOY,3,57,Coda,111,Janeway,some kind
+VOY,3,57,Coda,215,Paris,some kind
+VOY,3,57,Coda,231,Janeway,some kind
+VOY,3,57,Coda,313,Janeway,some kind
+VOY,3,58,Blood Fever,80,Neelix,some kind
+VOY,3,58,Blood Fever,188,Torres,some kind
+VOY,3,58,Blood Fever,191,Paris,some kind
+VOY,3,58,Blood Fever,222,Torres,some kind
+VOY,3,58,Blood Fever,303,Chakotay,some kind
+VOY,3,59,Unity,46,Riley,some kind
+VOY,3,59,Unity,50,Riley,some kind
+VOY,3,59,Unity,121,Torres,some kind
+VOY,3,59,Unity,151,Emh,some kind
+VOY,3,59,Unity,181,Riley,some kind
+VOY,3,60,The Darkling,197,Tuvok,some sort
+VOY,3,60,The Darkling,302,Kim,some kind
+VOY,3,61,Rise,122,Torres,some kind
+VOY,3,62,Favorite Son,316,Rinna,some kind
+VOY,3,63,Before and After,37,Chakotay,some sort
+VOY,3,63,Before and After,155,Chakotay,some kind
+VOY,3,63,Before and After,156,Emh,some sort
+VOY,3,63,Before and After,173,Kes,some kind
+VOY,3,63,Before and After,215,Emh,some type
+VOY,3,64,Real Life,39,Kim,some kind
+VOY,3,64,Real Life,219,Torres,some kind
+VOY,3,64,Real Life,226,Janeway,some kind
+VOY,3,64,Real Life,353,Emh,some kind
+VOY,3,65,Distant Origin,111,Kim,some kind
+VOY,3,65,Distant Origin,144,Emh,some sort
+VOY,3,66,Displaced,66,Paris,some kind
+VOY,3,66,Displaced,119,Torres,some kind
+VOY,3,66,Displaced,195,Kim,some kind
+VOY,3,66,Displaced,225,Neelix,some sort
+VOY,3,66,Displaced,249,Janeway,some kind
+VOY,3,67,Worst Case Scenario,424,Tuvok,some sort
+VOY,3,68,"Scorpion, Part 1",50,Emh,some sort
+VOY,3,68,"Scorpion, Part 1",58,Kes,some kind
+VOY,3,68,"Scorpion, Part 1",110,Janeway,some kind
+VOY,3,68,"Scorpion, Part 1",133,Kim,some sort
+VOY,3,68,"Scorpion, Part 1",162,Chakotay,some kind
+VOY,3,68,"Scorpion, Part 1",167,Chakotay,some kind
+VOY,3,68,"Scorpion, Part 1",202,Paris,some kind
+VOY,4,69,"Scorpion, Part 2",201,Torres,some kind
+VOY,4,70,The Gift,28,Tuvok,some kind
+VOY,4,70,The Gift,139,Torres,some kind
+VOY,4,70,The Gift,148,Janeway,some kind
+VOY,4,71,Day of Honor,73,Torres,some kind
+VOY,4,72,Nemesis,346,Chakotay,some sort
+VOY,4,73,Revulsion,307,Chakotay,some kind
+VOY,4,74,The Raven,30,Emh,some sort
+VOY,4,74,The Raven,121,Gauman,some sort
+VOY,4,75,Scientific Method,185,Emh,some kind
+VOY,4,75,Scientific Method,200,Torres,some kind
+VOY,4,76,"Year of Hell, Part 1",303,Kim,some kind
+VOY,4,78,Random Thoughts,74,Kim,some sort
+VOY,4,78,Random Thoughts,175,Paris,some sort
+VOY,4,79,Concerning Flight,34,Chakotay,some kind
+VOY,4,81,Waking Moments,143,Janeway,some sort
+VOY,4,81,Waking Moments,416,Chakotay,some kind
+VOY,4,81,Waking Moments,419,Chakotay,some kind
+VOY,4,82,Message in a Bottle,89,Emh,some sort
+VOY,4,82,Message in a Bottle,135,Emh,some kind
+VOY,4,82,Message in a Bottle,257,Kim,some kind
+VOY,4,82,Message in a Bottle,302,Emh,some kind
+VOY,4,83,Hunters,30,Chakotay,some kind
+VOY,4,83,Hunters,54,Kim,some kind
+VOY,4,83,Hunters,66,Emh,some kind
+VOY,4,83,Hunters,237,Tuvok,some kind
+VOY,4,83,Hunters,345,Kim,some kind
+VOY,4,84,Prey,68,Chakotay,some sort
+VOY,4,84,Prey,221,Emh,some sort
+VOY,4,85,Retrospect,110,Seven,some kind
+VOY,4,85,Retrospect,119,Emh,some sort
+VOY,4,85,Retrospect,198,Kovin,some kind
+VOY,4,86,"The Killing Game, Part 1",334,Chakotay,some kind
+VOY,4,87,"The Killing Game, Part 2",27,Chakotay,some kind
+VOY,4,88,Vis a Vis,242,Daelen,some sort
+VOY,4,89,The Omega Directive,25,Paris,some kind
+VOY,4,89,The Omega Directive,27,Paris,some kind
+VOY,4,89,The Omega Directive,48,Seven,some form
+VOY,4,91,Living Witness,42,Quarren,some sort
+VOY,4,91,Living Witness,65,Emh,some sort
+VOY,5,95,Night,175,Kim,some kind
+VOY,5,96,Drone,85,Kim,some kind
+VOY,5,98,In the Flesh,73,Chakotay,some kind
+VOY,5,100,Timeless,296,Paris,some kind
+VOY,5,101,Infinite Regress,84,Torres,some kind
+VOY,5,101,Infinite Regress,220,Seven,some kind
+VOY,5,102,Nothing Human,62,Janeway,some sort
+VOY,5,102,Nothing Human,73,Emh,some kind
+VOY,5,102,Nothing Human,430,Tuvok,some sort
+VOY,5,103,Thirty Days,85,Kim,some sort
+VOY,5,103,Thirty Days,196,Kim,some kind
+VOY,5,103,Thirty Days,210,Kim,some kind
+VOY,5,103,Thirty Days,286,Paris,some kind
+VOY,5,103,Thirty Days,288,Paris,some kind
+VOY,5,103,Thirty Days,394,Janeway,some sort
+VOY,5,105,Latent Image,174,Paris,some kind
+VOY,5,106,Bride of Chaotica,234,Paris,some kind
+VOY,5,107,Gravity,53,Paris,some kind
+VOY,5,107,Gravity,177,Kim,some kind
+VOY,5,107,Gravity,214,Chakotay,some sort
+VOY,5,108,Bliss,68,Seven,some kind
+VOY,5,108,Bliss,178,Chakotay [Oc],some kind
+VOY,5,109,Dark Frontier,17,Janeway,some kind
+VOY,5,109,Dark Frontier,21,Kim,some kind
+VOY,5,111,The Disease,307,Kim,some kind
+VOY,5,111,The Disease,343,Janeway,some sort
+VOY,5,112,Course: Oblivion,79,Torres,some form
+VOY,5,113,The Fight,233,Janeway,some sort
+VOY,5,113,The Fight,371,Emh,some kind
+VOY,5,117,11:59,239,Shannon,some kind
+VOY,5,118,Relativity,89,Janeway,some kind
+VOY,5,118,Relativity,173,Emh,some kind
+VOY,5,118,Relativity,210,Torres [Oc],some kind
+VOY,5,119,Warhead,9,Paris,some kind
+VOY,5,119,Warhead,100,Emh,some kind
+VOY,5,120,"Equinox, Part 1",34,Torres,some kind
+VOY,5,120,"Equinox, Part 1",307,Emh,some kind
+VOY,5,120,"Equinox, Part 1",309,Emh,some kind
+VOY,5,120,"Equinox, Part 1",312,Emh,some kind
+VOY,6,121,"Equinox, Part 2",26,Janeway,some form
+VOY,6,123,Barge of the Dead,286,Torres,some kind
+VOY,6,125,Alice,318,Janeway,some kind
+VOY,6,125,Alice,319,Torres,some kind
+VOY,6,126,Riddles,90,Neelix,some sort
+VOY,6,127,Dragon's Teeth,10,Kim,some kind
+VOY,6,128,One Small Step,339,Kelly,some kind
+VOY,6,129,The Voyager Conspiracy,245,Torres,some kind
+VOY,6,129,The Voyager Conspiracy,316,Janeway,some kind
+VOY,6,132,Blink of an Eye,13,Kim,some kind
+VOY,6,132,Blink of an Eye,31,Chakotay,some kind
+VOY,6,132,Blink of an Eye,262,Trina,some sort
+VOY,6,132,Blink of an Eye,384,Tuvok,some kind
+VOY,6,133,Virtuoso,44,Abarca,some kind
+VOY,6,135,Tsunkatse,80,Seven,some kind
+VOY,6,135,Tsunkatse,81,Tuvok,some sort
+VOY,6,136,Collective,207,Kim,some kind
+VOY,6,137,Spirit Folk,47,Michael,some kind
+VOY,6,137,Spirit Folk,86,Milo,some kind
+VOY,6,137,Spirit Folk,97,Seamus,some sort
+VOY,6,137,Spirit Folk,298,Neelix,some kind
+VOY,6,137,Spirit Folk,346,Michael,some kind
+VOY,6,137,Spirit Folk,356,Michael,some sort
+VOY,6,138,Ashes to Ashes,63,Ballard,some sort
+VOY,6,139,Child's Play,364,Seven,some kind
+VOY,6,140,Good Shepherd,290,Janeway,some kind
+VOY,6,140,Good Shepherd,391,Janeway,some kind
+VOY,6,141,Live Fast and Prosper,96,Janeway,some sort
+VOY,6,141,Live Fast and Prosper,194,Janeway,some sort
+VOY,6,144,Life Line,253,Zimmerman,some kind
+VOY,6,145,The Haunting of Deck Twelve,369,Chakotay,some kind
+VOY,6,146,"Unimatrix Zero, Part 1",41,Tuvok,some kind
+VOY,6,146,"Unimatrix Zero, Part 1",64,Seven,some kind
+VOY,6,146,"Unimatrix Zero, Part 1",109,Kim,some kind
+VOY,6,146,"Unimatrix Zero, Part 1",236,Kim,some kind
+VOY,7,149,Drive,392,Kim,some sort
+VOY,7,149,Drive,415,Torres,some kind
+VOY,7,150,Repression,43,Emh,some sort
+VOY,7,150,Repression,113,Paris,some kind
+VOY,7,150,Repression,256,Janeway,some form
+VOY,7,150,Repression,278,Janeway,some kind
+VOY,7,151,Critical Care,97,Emh,some kind
+VOY,7,151,Critical Care,428,Chellick,some sort
+VOY,7,153,Body and Soul,32,Seven,some kind
+VOY,7,153,Body and Soul,75,Paris,some kind
+VOY,7,153,Body and Soul,86,Paris,some kind
+VOY,7,153,Body and Soul,199,Chakotay,some kind
+VOY,7,155,Flesh and Blood,59,Seven,some kind
+VOY,7,155,Flesh and Blood,90,Janeway,some kind
+VOY,7,155,Flesh and Blood,550,Paris,some sort
+VOY,7,155,Flesh and Blood,731,Emh,some kind
+VOY,7,157,Shattered,28,Kim,some kind
+VOY,7,157,Shattered,48,Chakotay,some sort
+VOY,7,157,Shattered,79,Chakotay,some kind
+VOY,7,158,Lineage,291,Torres,some kind
+VOY,7,158,Lineage,423,Paris,some sort
+VOY,7,159,Repentance,186,Iko,some kind
+VOY,7,161,The Void,23,Tuvok,some kind
+VOY,7,162,"Workforce, Part 1",179,Emh [Oc],some sort
+VOY,7,164,Human Error,304,Emh,some kind
+VOY,7,165,Q2,299,Kim,some sort
+VOY,7,165,Q2,327,Emh,some form
+VOY,7,168,Natural Law,10,Seven,some kind
+VOY,7,169,Homestead,263,Neelix,some kind
+VOY,7,169,Homestead,297,Tuvok,some kind
+VOY,7,170,Renaissance Man,28,Ayala,some kind
+VOY,7,171,Endgame,230,Emh,some sort
+VOY,7,171,Endgame,391,Janeway,some sort
+VOY,7,171,Endgame,439,Admiral,some sort
+ENT,1,1,Broken Bow,32,Tos,some kind
+ENT,1,1,Broken Bow,51,Forrest,some sort
+ENT,1,1,Broken Bow,313,Archer,some kind
+ENT,1,1,Broken Bow,386,Reed,some kind
+ENT,1,3,Fight or Flight,114,Tucker,some kind
+ENT,1,3,Fight or Flight,219,Reed,some kind
+ENT,1,3,Fight or Flight,390,Reed,some kind
+ENT,1,4,Strange New World,82,Travis,some sort
+ENT,1,4,Strange New World,192,Tucker [Oc],some kind
+ENT,1,4,Strange New World,311,Tucker [Oc],some kind
+ENT,1,4,Strange New World,358,Archer,some kind
+ENT,1,5,Unexpected,49,T'pol,some sort
+ENT,1,5,Unexpected,144,Tucker [Oc],some kind
+ENT,1,5,Unexpected,160,Tucker,some kind
+ENT,1,6,Terra Nova,106,Archer,some kind
+ENT,1,6,Terra Nova,146,Archer,some kind
+ENT,1,7,The Andorian Incident,112,Hoshi,some kind
+ENT,1,7,The Andorian Incident,150,Archer,some kind
+ENT,1,7,The Andorian Incident,213,Tucker,some kind
+ENT,1,8,Breaking the Ice,79,Tucker,some kind
+ENT,1,9,Civilization,71,Archer,some kind
+ENT,1,9,Civilization,86,Tucker,some kind
+ENT,1,9,Civilization,100,Archer,some kind
+ENT,1,9,Civilization,125,Tucker,some kind
+ENT,1,9,Civilization,173,Archer,some kind
+ENT,1,9,Civilization,178,Riann,some kind
+ENT,1,9,Civilization,231,Archer [Oc],some kind
+ENT,1,9,Civilization,288,Reed,some kind
+ENT,1,10,Fortunate Son,289,Reed,some kind
+ENT,1,11,Cold Front,161,Fraddock,some kind
+ENT,1,11,Cold Front,192,Archer,some kind
+ENT,1,12,Silent Enemy,30,Archer,some kind
+ENT,1,12,Silent Enemy,135,Hoshi,some kind
+ENT,1,13,Dear Doctor,30,Archer,some kind
+ENT,1,13,Dear Doctor,135,Hoshi,some kind
+ENT,1,14,Sleeping Dogs,212,Travis,some kind
+ENT,1,18,Rogue Planet,124,Archer,some kind
+ENT,1,19,Acquisition,127,T'pol,some kind
+ENT,1,19,Acquisition,144,Grish,some sort
+ENT,1,19,Acquisition,310,Ulis,some kind
+ENT,1,20,Oasis,186,Archer,some kind
+ENT,1,20,Oasis,233,Reed,some kind
+ENT,1,22,Vox Sola,40,Hoshi,some kind
+ENT,1,22,Vox Sola,112,Kelly,some kind
+ENT,1,23,Fallen Hero,152,Reed,some kind
+ENT,1,25,Two Days and Two Nights,207,Tucker,some kind
+ENT,1,25,Two Days and Two Nights,317,Cutler,some kind
+ENT,1,26,"Shockwave, Part 1",6,Archer,some kind
+ENT,2,27,"Shockwave, Part 2",237,Silik,some kind
+ENT,2,30,Dead Stop,91,T'pol,some kind
+ENT,2,30,Dead Stop,107,Phlox,some sort
+ENT,2,30,Dead Stop,182,Archer,some kind
+ENT,2,30,Dead Stop,195,Hoshi,some kind
+ENT,2,30,Dead Stop,297,Phlox,some kind
+ENT,2,31,A Night in Sickbay,91,T'pol,some kind
+ENT,2,31,A Night in Sickbay,107,Phlox,some sort
+ENT,2,31,A Night in Sickbay,182,Archer,some kind
+ENT,2,31,A Night in Sickbay,195,Hoshi,some kind
+ENT,2,31,A Night in Sickbay,297,Phlox,some kind
+ENT,2,32,Marauders,14,Phlox [Oc],some kind
+ENT,2,33,The Seventh,30,Tucker,some kind
+ENT,2,33,The Seventh,263,Archer,some kind
+ENT,2,34,The Communicator,156,Pell,some kind
+ENT,2,42,Future Tense,4,Reed,some sort
+ENT,2,42,Future Tense,16,Archer,some kind
+ENT,2,42,Future Tense,26,Tucker,some kind
+ENT,2,42,Future Tense,30,Reed,some kind
+ENT,2,42,Future Tense,46,Tucker,some kind
+ENT,2,42,Future Tense,84,Phlox,some kind
+ENT,2,42,Future Tense,187,T'pol,some type
+ENT,2,42,Future Tense,211,Tucker,some kind
+ENT,2,44,The Crossing,57,Archer,some kind
+ENT,2,44,The Crossing,233,Archer [Oc],some kind
+ENT,2,46,Horizon,78,Rianna,some kind
+ENT,2,46,Horizon,198,Juan,some kind
+ENT,2,47,The Breach,248,Tucker,some kind
+ENT,2,49,Regeneration,59,Rooney,some kind
+ENT,2,49,Regeneration,79,Reed,some sort
+ENT,2,49,Regeneration,106,Phlox,some sort
+ENT,2,49,Regeneration,127,Phlox,some sort
+ENT,2,49,Regeneration,161,Reed,some kind
+ENT,2,49,Regeneration,231,Hoshi,some kind
+ENT,2,49,Regeneration,287,Phlox,some form
+ENT,2,50,First Flight,8,Archer,some kind
+ENT,2,51,Bounty,73,Reed,some kind
+ENT,2,51,Bounty,224,Tucker,some sort
+ENT,2,51,Bounty,227,Tucker,some sort
+ENT,2,52,The Expanse,88,Reed,some kind
+ENT,2,52,The Expanse,120,Forrest,some kind
+ENT,2,52,The Expanse,249,Reed,some kind
+ENT,3,53,The Xindi,4,Reed,some kind
+ENT,3,55,Extinction,29,Archer,some form
+ENT,3,55,Extinction,59,T'pol [Oc],some kind
+ENT,3,56,Rajiin,292,Travis,some kind
+ENT,3,57,Impulse,292,Travis,some kind
+ENT,3,58,Exile,293,Comm. Officer,some kind
+ENT,3,59,The Shipment,209,Tucker,some kind
+ENT,3,62,Similitude,148,Sim,some kind
+ENT,3,63,Carpenter Street,149,Loomis,some kind
+ENT,3,63,Carpenter Street,219,Archer [Oc],some kind
+ENT,3,63,Carpenter Street,227,T'pol,some kind
+ENT,3,65,Proving Ground,187,T'pol,some kind
+ENT,3,65,Proving Ground,237,Shran,some kind
+ENT,3,66,Stratagem,272,Tucker,some kind
+ENT,3,67,Harbinger,257,Archer,some kind
+ENT,3,67,Harbinger,361,Tucker,some kind
+ENT,3,70,Azati Prime,177,Travis,some sort
+ENT,3,71,Damage,128,Illyrian,some sort
+ENT,3,74,The Council,243,Travis,some kind
+ENT,3,75,Countdown,149,T'pol,some kind
+ENT,4,77,"Storm Front, Part 1",240,Carmine,some kind
+ENT,4,77,"Storm Front, Part 1",277,Carmine,some kind
+ENT,4,78,"Storm Front, Part 2",123,Tucker,some kind
+ENT,4,78,"Storm Front, Part 2",130,Archer,some kind
+ENT,4,79,Home,184,Tucker,some kind
+ENT,4,79,Home,252,Archer,some kind
+ENT,4,81,Cold Station 12,303,Hoshi,some kind
+ENT,4,87,Observer Effect,230,Archer,some kind
+ENT,4,91,Affliction,223,T'pol,some kind
+ENT,4,93,Bound,189,Reed,some kind
+TAS,1,1,Beyond the Farthest Star,42,Spock,some kind
+TAS,1,3,One of Our Planets is Missing,58,Spock,some form
+TAS,1,3,One of Our Planets is Missing,82,Spock,some kind
+TAS,1,3,One of Our Planets is Missing,88,Kirk,some sort
+TAS,1,3,One of Our Planets is Missing,91,Mccoy,some kind
+TAS,1,4,The Lorelei Signal,5,Uhura,some sort
+TAS,1,7,The Infinite Vulcan,2,Spock,some kind
+TAS,1,8,The Magicks of Megas-Tu,14,Spock,some form
+TAS,1,8,The Magicks of Megas-Tu,82,Scott,some kind
+TAS,1,9,Once Upon a Planet,168,Sulu,some kind
+TAS,1,12,The Time Trap,44,Spock,some form
+TAS,1,12,The Time Trap,173,Spock,some kind
+TAS,1,15,The Eye of the Beholder,120,Mccoy,some kind
+TAS,2,18,Bem,102,Kirk,some kind
+TAS,2,18,Bem,129,Spock,some sort
+TAS,2,18,Bem,148,Kirk,some kind
+TAS,2,20,Albatross,9,Kirk,some kind
+TAS,2,21,How Sharper than a Serpent's Tooth,81,Kirk,some sort
+TAS,2,21,How Sharper than a Serpent's Tooth,106,Mccoy,some kind
+TOS,NA,1,Star Trek: The Motion Picture,94,Kirk (O.s.),some type
+TOS,NA,1,Star Trek: The Motion Picture,97,Branch,some kind
+TOS,NA,2,Star Trek 2: The Wrath of Khan,292,Carol,some sort
+TOS,NA,4,Star Trek 4: The Voyage Home,441,Gillian,some kind
+TOS,NA,5,Star Trek 5: The Final Frontier,548,Mccoy,some kind
+TOS,NA,6,Star Trek 6: The Undiscovered Country,303,Bones,some kind
+TNG,NA,7,Star Trek: Generations,57,Com Voice,some kind
+TNG,NA,7,Star Trek: Generations,98,Lieutenant,some sort
+TNG,NA,7,Star Trek: Generations,110,Chekov,some kind
+TNG,NA,7,Star Trek: Generations,296,Picard,some sort
+TNG,NA,7,Star Trek: Generations,304,Picard,some kind
+TNG,NA,8,Star Trek: First Contact,46,Riker,some kind
+TNG,NA,8,Star Trek: First Contact,129,Riker,some kind
+TNG,NA,8,Star Trek: First Contact,157,Picard,some kind
+TNG,NA,8,Star Trek: First Contact,228,Picard,some kind
+TNG,NA,8,Star Trek: First Contact,333,Picard,some kind
+TNG,NA,9,Star Trek: Insurrection,8,Sojef,some kind
+TNG,NA,9,Star Trek: Insurrection,121,Riker,some form
+TNG,NA,9,Star Trek: Insurrection,480,Gallatin,some kind
+TNG,NA,10,Star Trek: Nemesis,226,Janeway,some kind
