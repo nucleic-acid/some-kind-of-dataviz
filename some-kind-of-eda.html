@@ -69,6 +69,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="some-kind-of-eda_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="some-kind-of-eda_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
+<script src="some-kind-of-eda_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="some-kind-of-eda_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 </head>
 
@@ -110,7 +113,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"tidyverse"</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"rtrek"</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"trekfont"</span>)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"showtext"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"showtext"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"knitr"</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"kableExtra"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell">
@@ -215,19 +220,46 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 </div>
 </div>
-<p>So, we have a clear winner: VOY with 353 occurrences of any of the four phrases.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-</section>
-<section id="who-said-what-most-often" class="level3">
-<h3 class="anchored" data-anchor-id="who-said-what-most-often">Who said what most often?</h3>
+<p>So, we have a clear winner: VOY with 353 occurrences of any of the four phrases.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Note, that this number differs from the extensive collection in the <a href="https://youtu.be/JwZiezIxCVU">“Some kind of…StarTrek Supercut” Video</a> by Jogwheel. At this point I’m unable to manually compare the dataset obtained via {rtrek} with the video. As the packages author <a href="https://github.com/leonawicz">Matt Leonawicz</a> points out:</p>
+<blockquote class="blockquote">
+<p>“The dataset is nicely curated, but imperfect. There are text-parsing edge cases that are difficult to handle generally. The quality varies substantially across series.”</p>
+</blockquote>
+</div>
+</div>
+</div>
+<p>I’ll mostly work on VOY for the rest of this EDA:</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>some_kind_of_df <span class="sc">|&gt;</span> </span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(character) <span class="sc">|&gt;</span> </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(what_said, <span class="at">sort =</span> T) <span class="sc">|&gt;</span> </span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">id_cols =</span> <span class="fu">c</span>(character), <span class="at">names_from =</span> what_said, <span class="at">values_from =</span> n, <span class="at">values_fill =</span> 0L) <span class="sc">|&gt;</span> </span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">10</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>some_kind_of_VOY <span class="ot">&lt;-</span> some_kind_of_df <span class="sc">|&gt;</span> </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(series <span class="sc">==</span> <span class="st">"VOY"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="who-said-what-most-often-in-voy" class="level3">
+<h3 class="anchored" data-anchor-id="who-said-what-most-often-in-voy">Who said what most often in VOY?</h3>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>some_kind_of_VOY <span class="sc">|&gt;</span> </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(character) <span class="sc">|&gt;</span> </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(what_said, <span class="at">sort =</span> T) <span class="sc">|&gt;</span> </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">id_cols =</span> <span class="fu">c</span>(character), <span class="at">names_from =</span> what_said, <span class="at">values_from =</span> n, <span class="at">values_fill =</span> 0L) <span class="sc">|&gt;</span> </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">10</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <table class="table table-sm table-striped small">
@@ -236,24 +268,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <th style="text-align: left;">character</th>
 <th style="text-align: right;">some kind</th>
 <th style="text-align: right;">some sort</th>
-<th style="text-align: right;">some form</th>
 <th style="text-align: right;">some type</th>
+<th style="text-align: right;">some form</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Janeway</td>
-<td style="text-align: right;">41</td>
+<td style="text-align: right;">40</td>
 <td style="text-align: right;">16</td>
-<td style="text-align: right;">2</td>
 <td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Kim</td>
 <td style="text-align: right;">36</td>
 <td style="text-align: right;">9</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Paris</td>
@@ -266,47 +298,47 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: left;">Torres</td>
 <td style="text-align: right;">35</td>
 <td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Geordi</td>
-<td style="text-align: right;">33</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">O’brien</td>
-<td style="text-align: right;">33</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Chakotay</td>
 <td style="text-align: right;">29</td>
 <td style="text-align: right;">10</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Archer</td>
-<td style="text-align: right;">24</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">Emh</td>
 <td style="text-align: right;">24</td>
 <td style="text-align: right;">15</td>
-<td style="text-align: right;">1</td>
 <td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tuvok</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Kira</td>
-<td style="text-align: right;">20</td>
+<td style="text-align: left;">Seven</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Kes</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Neelix</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
@@ -316,17 +348,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="is-there-a-dynamic-across-the-episodes-seasons" class="level3">
-<h3 class="anchored" data-anchor-id="is-there-a-dynamic-across-the-episodes-seasons">Is there a dynamic across the episodes / seasons?</h3>
+<section id="is-there-a-dynamic-across-the-voy-seasons" class="level3">
+<h3 class="anchored" data-anchor-id="is-there-a-dynamic-across-the-voy-seasons">Is there a dynamic across the VOY seasons?</h3>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>by_season <span class="ot">&lt;-</span> some_kind_of_df <span class="sc">|&gt;</span> </span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(season) <span class="sc">|&gt;</span> </span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(what_said) <span class="sc">|&gt;</span> </span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">id_cols =</span> <span class="fu">c</span>(season), <span class="at">names_from =</span> what_said, <span class="at">values_from =</span> n, <span class="at">values_fill =</span> 0L) </span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>by_season <span class="sc">|&gt;</span> knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>by_season <span class="ot">&lt;-</span> some_kind_of_df <span class="sc">|&gt;</span> </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(season) <span class="sc">|&gt;</span> </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(what_said) <span class="sc">|&gt;</span> </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">id_cols =</span> <span class="fu">c</span>(season), <span class="at">names_from =</span> what_said, <span class="at">values_from =</span> n, <span class="at">values_fill =</span> 0L) </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>by_season <span class="sc">|&gt;</span> knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <table class="table table-sm table-striped small">
@@ -400,16 +432,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 </div>
 </div>
+</section>
+<section id="what-episode-is-leading-in-voy" class="level3">
+<h3 class="anchored" data-anchor-id="what-episode-is-leading-in-voy">What episode is leading in VOY?</h3>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>by_episode <span class="ot">&lt;-</span> some_kind_of_df <span class="sc">|&gt;</span> </span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(number) <span class="sc">|&gt;</span> </span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(what_said, <span class="at">sort =</span> T)</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>by_episode <span class="sc">|&gt;</span></span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">10</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>by_episode <span class="ot">&lt;-</span> some_kind_of_df <span class="sc">|&gt;</span> </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(series <span class="sc">==</span> <span class="st">"VOY"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(number) <span class="sc">|&gt;</span> </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(what_said) <span class="sc">|&gt;</span> </span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(number)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>episode_titles <span class="ot">&lt;-</span> some_kind_of_df <span class="sc">|&gt;</span> </span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(series <span class="sc">==</span> <span class="st">"VOY"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(number, season, title)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>by_episode <span class="sc">|&gt;</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">1</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(episode_titles, <span class="at">by =</span> <span class="st">"number"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <table class="table table-sm table-striped small">
@@ -418,58 +461,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <th style="text-align: right;">number</th>
 <th style="text-align: left;">what_said</th>
 <th style="text-align: right;">n</th>
+<th style="text-align: right;">season</th>
+<th style="text-align: left;">title</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: right;">1</td>
 <td style="text-align: left;">some kind</td>
-<td style="text-align: right;">19</td>
-</tr>
-<tr class="even">
 <td style="text-align: right;">9</td>
-<td style="text-align: left;">some kind</td>
-<td style="text-align: right;">17</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">6</td>
-<td style="text-align: left;">some kind</td>
-<td style="text-align: right;">13</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">some kind</td>
-<td style="text-align: right;">11</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">13</td>
-<td style="text-align: left;">some kind</td>
-<td style="text-align: right;">11</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">59</td>
-<td style="text-align: left;">some kind</td>
-<td style="text-align: right;">11</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">63</td>
-<td style="text-align: left;">some kind</td>
-<td style="text-align: right;">11</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">169</td>
-<td style="text-align: left;">some kind</td>
-<td style="text-align: right;">11</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">4</td>
-<td style="text-align: left;">some kind</td>
-<td style="text-align: right;">10</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">5</td>
-<td style="text-align: left;">some kind</td>
-<td style="text-align: right;">10</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">Caretaker</td>
 </tr>
 </tbody>
 </table>
@@ -477,14 +479,136 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </section>
 </section>
+<section id="honorary-mentions" class="level2">
+<h2 class="anchored" data-anchor-id="honorary-mentions">Honorary Mentions</h2>
+<p>Some of the characters in other series are also playing in the first league of overused phrases. Here’s how they compare to the Voyager crew:</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>some_kind_of_df <span class="sc">|&gt;</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(character, series) <span class="sc">|&gt;</span> </span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(what_said, <span class="at">sort =</span> T) <span class="sc">|&gt;</span> </span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">id_cols =</span> <span class="fu">c</span>(character, series), <span class="at">names_from =</span> what_said, <span class="at">values_from =</span> n, <span class="at">values_fill =</span> 0L) <span class="sc">|&gt;</span> </span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">10</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">rank =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">relocate</span>(rank) <span class="sc">|&gt;</span> </span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">8</span>, <span class="dv">10</span>), <span class="at">bold =</span> T, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">background =</span> <span class="st">"#D7261E"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<table data-quarto-postprocess="true" class="table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: right;" data-quarto-table-cell-role="th">rank</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">character</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">series</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">some kind</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">some sort</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">some form</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">some type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">Janeway</td>
+<td style="text-align: left;">VOY</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">Kim</td>
+<td style="text-align: left;">VOY</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Paris</td>
+<td style="text-align: left;">VOY</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Torres</td>
+<td style="text-align: left;">VOY</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">5</td>
+<td style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">Geordi</td>
+<td style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">TNG</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">33</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">3</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">0</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">6</td>
+<td style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">O'brien</td>
+<td style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">DS9</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">33</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">9</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">0</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">Chakotay</td>
+<td style="text-align: left;">VOY</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">8</td>
+<td style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">Archer</td>
+<td style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">ENT</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">24</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">0</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">1</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">Emh</td>
+<td style="text-align: left;">VOY</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">10</td>
+<td style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">Kira</td>
+<td style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">DS9</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">20</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">3</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">0</td>
+<td style="text-align: right; font-weight: bold; color: white !important; background-color: rgba(215, 38, 30, 255) !important;">0</td>
+</tr>
+</tbody>
+</table>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+</div>
+</div>
+</section>
 
-<ol>
-<li id="fn1"><p>Note, that this number differs from the extensive collection in the <a href="https://youtu.be/JwZiezIxCVU">“Some kind of…StarTrek Supercut” Video</a> by Jogwheel. At this point I’m unable to compare the dataset obtained via {rtrek} with the video. As the packages author <a href="https://github.com/leonawicz">Matt Leonawicz</a> points out: “The dataset is nicely curated, but imperfect. There are text-parsing edge cases that are difficult to handle generally. The quality varies substantially across series.”<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main>
+</main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

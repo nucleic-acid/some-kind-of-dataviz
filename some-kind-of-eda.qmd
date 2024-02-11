@@ -15,6 +15,8 @@ library("tidyverse")
 library("rtrek")
 library("trekfont")
 library("showtext")
+library("knitr")
+library("kableExtra")
 ```
 
 ```{r setup fonts}
@@ -60,12 +62,25 @@ some_kind_of_df |>
 
 ```
 
-So, we have a clear winner: VOY with 353 occurrences of any of the four phrases.^[Note, that this number differs from the extensive collection in the ["Some kind of...StarTrek Supercut" Video](https://youtu.be/JwZiezIxCVU) by Jogwheel. At this point I'm unable to compare the dataset obtained via {rtrek} with the video. As the packages author [Matt Leonawicz](https://github.com/leonawicz) points out: "The dataset is nicely curated, but imperfect. There are text-parsing edge cases that are difficult to handle generally. The quality varies substantially across series."]
+So, we have a clear winner: VOY with 353 occurrences of any of the four phrases.
 
-### Who said what most often?
+:::{.callout-important collapse=false appearance='default' icon=true}
+Note, that this number differs from the extensive collection in the ["Some kind of...StarTrek Supercut" Video](https://youtu.be/JwZiezIxCVU) by Jogwheel. At this point I'm unable to manually compare the dataset obtained via {rtrek} with the video. As the packages author [Matt Leonawicz](https://github.com/leonawicz) points out: 
+
+> "The dataset is nicely curated, but imperfect. There are text-parsing edge cases that are difficult to handle generally. The quality varies substantially across series."
+:::
+
+I'll mostly work on VOY for the rest of this EDA:
+```{r}
+some_kind_of_VOY <- some_kind_of_df |> 
+  filter(series == "VOY")
+```
+
+
+### Who said what most often in VOY?
 
 ```{r}
-some_kind_of_df |> 
+some_kind_of_VOY |> 
   group_by(character) |> 
   count(what_said, sort = T) |> 
   pivot_wider(id_cols = c(character), names_from = what_said, values_from = n, values_fill = 0L) |> 
@@ -73,7 +88,7 @@ some_kind_of_df |>
   knitr::kable()
 ```
 
-### Is there a dynamic across the episodes / seasons?
+### Is there a dynamic across the VOY seasons?
 
 ```{r}
 by_season <- some_kind_of_df |> 
@@ -84,16 +99,42 @@ by_season <- some_kind_of_df |>
 by_season |> knitr::kable()
 ```
 
+### What episode is leading in VOY?
 
 ```{r}
 by_episode <- some_kind_of_df |> 
+  filter(series == "VOY") |> 
   group_by(number) |> 
-  count(what_said, sort = T)
+  count(what_said) |> 
+  arrange(number)
+
+episode_titles <- some_kind_of_df |> 
+  filter(series == "VOY") |> 
+  select(number, season, title)
 
 by_episode |>
-  head(10) |> 
+  head(1) |> 
+  left_join(episode_titles, by = "number") |> 
+  distinct() |> 
   knitr::kable()
 ```
 
 
+
+## Honorary Mentions
+
+Some of the characters in other series are also playing in the first league of overused phrases. Here's how they compare to the Voyager crew:
+
+```{r}
+some_kind_of_df |> 
+  group_by(character, series) |> 
+  count(what_said, sort = T) |> 
+  pivot_wider(id_cols = c(character, series), names_from = what_said, values_from = n, values_fill = 0L) |> 
+  head(10) |> 
+  ungroup() |> 
+  mutate(rank = 1:10) |> 
+  relocate(rank) |> 
+  kable() |> 
+  row_spec(c(5, 6, 8, 10), bold = T, color = "white", background = "#D7261E")
+```
 
